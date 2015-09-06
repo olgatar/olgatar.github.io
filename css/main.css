@@ -5,8 +5,6 @@ GENERAL
 body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 #wrapper {
