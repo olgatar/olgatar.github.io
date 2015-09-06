@@ -187,7 +187,7 @@ COLORS
 
 /* site body */
 body {
-  background-color: #fff;
+  background-color: #3498db;
   color: #999;
 }
 
@@ -199,8 +199,7 @@ header {
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
-}
+  background: #34495e
 
 /* logo text */
 h1, h2 {
