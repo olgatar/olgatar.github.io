@@ -219,7 +219,7 @@ a {
 }
 
 /* nav link */
-nav a:link {
+nav a, nav a:visited {
   color: #FFFFFF;
 }
 
