@@ -219,12 +219,12 @@ a {
 }
 
 /* nav link */
-nav a, nav a:visited {
+nav a {
   color: #FFFFFF;
 }
 
 /* selected nav link */
-nav a:selected:active {color:#FF0000;}
+nav a:selected {color:#FF0000;}
 
 nav a:hover {
   color: #FF0000;
