@@ -212,11 +212,11 @@ h1, h2 {
   color: #fff;
 }
 
-.test h3 {
-  color: #fff;
+h3.blue {
+  color: #0000FF;
 }
 
-.test p {
+p {
     color: #ccc;
 }
 
