@@ -211,12 +211,12 @@ h1, h2 {
   color: #fff;
 }
 
-h3 {
-  color: #0000FF;
+#wrapper h3 {
+  color: #0000ff;
 }
 
-p {
-    color: #0000FF;
+#wrapper p {
+    color: #fff;
 }
 
 /* links */
