@@ -3,7 +3,7 @@ GENERAL
 ***********************************/
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
 
@@ -26,6 +26,9 @@ h3, h4 {
   text-align: center;
 }
 
+p {
+    font-size: 12px;
+}
 
 
 
@@ -190,7 +193,7 @@ COLORS
 /* site body */
 body {
   background-color: #3498db;
-  color: #ccc;
+  color: #fff;
 }
 
 /* green header */
@@ -206,6 +209,10 @@ nav {
 /* logo text */
 h1, h2 {
   color: #fff;
+}
+
+p {
+    color: #ccc;
 }
 
 /* links */
