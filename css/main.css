@@ -205,8 +205,8 @@ header {
 
 /* nav background on mobile */
 nav {
-  background: #FFFFFF
-
+  background-color: #FFFFFF
+}
 /* logo text */
 h1, h2 {
   color: #000000;
