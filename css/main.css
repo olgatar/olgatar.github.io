@@ -199,7 +199,7 @@ body {
 
 /* green header */
 header {
-  background: #40E0D0;
+  background: #00BFFF;
   border-color: #000;
 }
 
@@ -220,7 +220,7 @@ a {
 
 /* nav link */
 nav a, nav a:visited {
-  color: #fff;
+  color: #ccc;
 }
 
 /* selected nav link */
