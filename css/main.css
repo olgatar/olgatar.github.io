@@ -219,13 +219,21 @@ a {
 }
 
 /* nav link */
-nav a {
+nav a:link {
+  color: #FFFFFF;
+}
+
+nav a:visited {
   color: #FFFFFF;
 }
 
 /* selected nav link */
-nav a:selected {color:#FF0000;}
 
 nav a:hover {
   color: #FF0000;
 }
+
+nav a:active {
+  color:#FF0000;
+}
+
