@@ -194,7 +194,6 @@ COLORS
 /* site body */
 body {
   background-color: #3498db;
-  color: #ccc;
 }
 
 /* green header */
@@ -212,12 +211,12 @@ h1, h2 {
   color: #fff;
 }
 
-h3.blue {
+h3 {
   color: #0000FF;
 }
 
 p {
-    color: #ccc;
+    color: #fff;
 }
 
 /* links */
