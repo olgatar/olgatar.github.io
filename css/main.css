@@ -225,6 +225,6 @@ nav a:link, nav a:visited {
 
 /* selected nav link */
 
-nav a:active, nav a:hover {
+nav a:selected, nav a:hover {
   color: #FF0000;
 }
