@@ -1,5 +1,5 @@
-$('article p, ul, li').hide();
+$('article p').hide();
 
 $('h4').click(function(){
-  $('article p, ul, li').next().slideToggle();
+  $('article p').next().slideToggle();
 })
