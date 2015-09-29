@@ -1,4 +1,4 @@
-$('article p h4').hide();
+$('article h4 p').hide();
 
 $('h3').click(function(){
   $(this).next().slideToggle();
