@@ -1,0 +1,348 @@
+/* Import normalize.css
+======================================== */
+
+@import url("normalize.css");
+
+/* Import FONTS
+======================================== */
+
+@import url("https://fonts.googleapis.com/css?family=Itim");
+
+body {
+  font-family: 'Itim', cursive, sans-serif;
+}
+
+/* GENERAL Style
+======================================== */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* NAV and Anchor elements style
+======================================== */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.wrapper a:link {
+  font-weight: normal;
+}
+
+.wrapper a:hover {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+abbr[title] {
+  border-bottom: none;
+}
+
+footer a {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+/* HEADER for mobile device
+======================================== */
+
+header[role=banner] {
+  width: 100%;
+  height: 340px;
+  margin: 0 auto;
+  padding-top: 5px;
+
+  background-image: url("../img/b2bild1.jpg");
+  background-image: -webkit-linear-gradient(to bottom,  rgba(255,255,255,0) 60%,rgba(236,236,236,1) 100%), url("../img/b2bild1.jpg");
+  background-image: linear-gradient(to bottom,  rgba(255,255,255,0) 60%,rgba(236,236,236,1) 100%), url("../img/b2bild1.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* Summary Styles
+======================================== */
+
+.summary {
+  position: absolute;
+  top: 190px;
+  left: 15px;
+  width: 52%;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+/* Main Styles
+======================================== */
+
+.main {
+  height: 100%;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.page-wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+/* Preamble Styles
+======================================== */
+
+.preamble {
+  padding: 0 20px;
+  font-size: 0.9em;
+  border-bottom: 1px solid #000;
+}
+
+/* Sidebar Styles
+======================================== */
+
+.wrapper {
+  padding: 5px 0 20px;
+  text-align: center;
+  font-size: 0.9em;
+  min-height: 100%;
+
+  background-image: url("../img/b2bild3.jpg");
+  background-image: -webkit-linear-gradient(to bottom,  rgba(255,255,255,0) 60%,rgba(236,236,236,1) 100%), url("../img/b2bild3.jpg");
+  background-image: linear-gradient(to bottom,  rgba(255,255,255,0) 60%,rgba(236,236,236,1) 100%), url("../img/b2bild3.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper h3 {
+  font-size: 1.4em;
+}
+
+/* FOOTER
+======================================== */
+
+footer {
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* COLOR Styles
+======================================== */
+
+body {
+  background-color: #ececec;
+}
+
+header[role=banner] {
+  background-color: #ececec;
+}
+
+a:link {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+h1, h2, h3, p {
+  color: #2c3e50;
+}
+
+.wrapper h3 {
+  color: #000;
+}
+
+.wrapper a:link {
+  color: #fff;
+}
+
+.wrapper a:visited {
+  color: #fff;
+}
+
+
+/* Media Queries
+======================================== */
+
+@media (min-width: 481px) {
+
+  /* Summary Styles
+  ======================================== */
+
+  .summary {
+    top: 220px;
+    left: 20px;
+    width: 50%;
+  }
+
+  /* Preamble Styles
+  ======================================== */
+
+  .preamble {
+    text-align: center;
+    padding: 0 30px 0;
+  }
+
+  /* Explanation Styles
+  ======================================== */
+
+  .explanation {
+    display: inline-block;
+    width: 40%;
+    margin: 0 20px;
+    float: left;
+  }
+
+  /* Participation Styles
+  ======================================== */
+
+  .participation {
+    display: inline-block;
+    width: 40%;
+    margin: 0 20px;
+    float: left;
+  }
+
+  /* Benefits Styles
+  ======================================== */
+
+  .benefits {
+    display: inline-block;
+    margin: 0 20px;
+  }
+
+  /* Requirements Styles
+  ======================================== */
+
+  .requirements {
+    display: inline-block;
+    margin: 0 20px;
+  }
+}
+
+@media (min-width: 769px) {
+
+  /* Summary Styles
+  ======================================== */
+
+  .summary {
+    top: 250px;
+    left: 20px;
+    width: 42%;
+  }
+
+  /* Main Styles
+  ======================================== */
+
+  .main {
+    display: inline-block;
+    padding-left: 20px;
+    float: left;
+    height: 100%;
+    width: 60%;
+  }
+
+  /* Sidebar Styles
+  ======================================== */
+
+  .wrapper {
+    margin: 30px auto;
+    padding-bottom: 160px;
+    display: inline-block;
+    float: left;
+    width: 30%;
+    height: 100%;
+    font-size: 0.8em;
+  }
+
+  .wrapper h3 {
+    font-size: 1.4em;
+  }
+
+  /* Explanation Styles
+  ======================================== */
+
+  .explanation {
+    width: 40%;
+  }
+
+  /* Participation Styles
+  ======================================== */
+
+  .participation {
+    width: 40%;
+  }
+
+}
+
+
+@media (min-width: 940px) {
+
+  /* Summary Styles
+  ======================================== */
+
+  .summary {
+    left: 40px;
+  }
+
+  /* Main Styles
+  ======================================== */
+
+  .main {
+    width: 62%;
+  }
+
+  /* Sidebar Styles
+  ======================================== */
+
+  .wrapper {
+    margin: 30px 20px;
+    width: 25%;
+    height: 100%;
+  }
+
+  /* Explanation Styles
+  ======================================== */
+
+  .explanation {
+    width: 30%;
+  }
+
+  /* Participation Styles
+  ======================================== */
+
+  .participation {
+    width: 30%;
+  }
+
+  /* Benefits Styles
+  ======================================== */
+
+  .benefits {
+    width: 19%;
+  }
+}
