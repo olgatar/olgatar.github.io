@@ -1,233 +1,412 @@
 /**********************************
-GENERAL
+FONTS
 ***********************************/
 
-body {
-  font-family: 'Times New Roman', Times, serif;
-  text-align: justify;
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+
+@font-face {
+    font-family: 'nerissemibold';
+    src: url('../webfonts/Neris-SemiBold-webfont.eot');
+    src: url('../webfonts/Neris-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/Neris-SemiBold-webfont.woff') format('woff'),
+         url('../webfonts/Neris-SemiBold-webfont.ttf') format('truetype'),
+         url('../webfonts/Neris-SemiBold-webfont.svg#nerissemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-#wrapper {
-  max-width: 640px;
-  margin: 0 auto;
-  padding: 0 5%;
+
+@font-face {
+    font-family: 'nerislight';
+    src: url('../webfonts/Neris-Light-webfont.eot');
+    src: url('../webfonts/Neris-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/Neris-Light-webfont.woff') format('woff'),
+         url('../webfonts/Neris-Light-webfont.ttf') format('truetype'),
+         url('../webfonts/Neris-Light-webfont.svg#nerislight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-a {
-  text-decoration: none;
+@font-face {
+    font-family: 'nerisblack';
+    src: url('../webfonts/Neris-Black-webfont.eot');
+    src: url('../webfonts/Neris-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/Neris-Black-webfont.woff') format('woff'),
+         url('../webfonts/Neris-Black-webfont.ttf') format('truetype'),
+         url('../webfonts/Neris-Black-webfont.svg#nerisblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-img {
-  width: 100%;
-}
-
-h3, h4 {
-  margin: 0 0 1em 0;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+/**********************************
+GENERAL
+***********************************/
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  padding-top: 83px;
+  padding-bottom: 40px;
 }
 
 p {
-    font-size: 16px;
-}
-
-br {
-      line-height: 150%;
-     }
-
-
-
-/**********************************
-HEADING
-***********************************/
-
-header {
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
-  width: 100%;
-}
-
-#logo {
-  text-align: center;
-  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.15em;
+  line-height: 1.5em;
+  margin: 1em auto;
+	padding: 0 5%;
+  text-indent: 30px;
 }
 
 h1 {
-  font-family: 'Changa One', sans-serif;
-  margin: 15px 0;
-  font-size: 1.75em;
-  font-weight: normal;
-  line-height: 0.8em;
+  color: #000;
 }
 
-h2 {
-  font-size: 0.75em;
-  margin: -5px 0 0;
-  font-weight: normal;
+ul {
+  padding: 0 7%;
 }
-
-
 
 /**********************************
-NAVIGATION
+HEADER
 ***********************************/
 
-nav {
-  text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
+.page-header {
+    height: 83px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: white;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
+.navbar-header {
+    height: 82px;
 }
 
-nav li {
-  display: inline-block;
-}
-
-nav a {
-  font-weight: 1200;
-  padding: 15px 10px;
+.olga-logo {
+    background-color: white;
+    width: 130px;
+    margin-top: 12.5px;
+    margin-left: 15px;
+    z-index:50;
 }
 
 
+#menu-button {
+    background-image: none;
+    border: none;
+    background-color: white;
+    margin-right: 15px;
+    padding:0;
+}
+
+.menu-icon {
+    height: 30px;
+}
+
+#myNavbar {
+  font-family:"nerissemibold";
+  background: #fff;
+  border: none;
+}
+
+#myNavbar {
+  font-family:"nerissemibold";
+  background: #fff;
+  border: none;
+  padding-top: 15px;
+}
+
+#myNavbar li:last-child {
+  margin-right: 25px;
+}
+
+
+#myNavbar a {
+color: #000;
+background: #fff;
+font-size: 1.4em;
+border: 1px solid #fff;
+border-radius: 25px;
+}
+
+#myNavbar a:hover {
+color: #fff;
+background: #000;
+}
 
 /**********************************
-FOOTER
+PAGE: LANDING
 ***********************************/
 
-footer {
-  font-size: 0.75em;
-  text-align: center;
-  clear: both;
-  padding-top: 50px;
-  color: #ccc;
+.landingpage h1 {
+
+font-family: 'nerissemibold', sans-serif;
+font-size: 4em;
+color: white;
+font-weight:bold;
 }
 
-.social-icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
+.landingpage h2 {
+
+font-family: 'nerissemibold', sans-serif;
+font-size: 2.2em;
+color: #fff;
+font-weight:bold;
 }
 
+.landing-wrapper {
+    width: 100%;
+    height: 350px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6), 0px 0px 2px  rgba(0,0,0,1);
+}
 
+.landingpage img {
+    background: url(../img/landing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+}
+
+.landing-slogan {
+    z-index:100;
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top:190px;
+}
 
 /**********************************
 PAGE: PORTFOLIO
 ***********************************/
 
-#gallery {
+.wrapper h1 {
   margin: 0;
-  padding: 0;
-  list-style: none;
+	padding: 5px 0;
+  background-color: #f2f1ef;
+	font-weight: normal;
+  font-family: 'nerislight', sans-serif;
+  color: #000;
+  text-shadow: 2px 2px 6px #000;
 }
 
-#gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7;
+.portfolio h4 {
+  font-weight: bold;
+  font-family: 'nerislight', sans-serif;
+  color: #000;
+  font-size: 16px;
 }
 
-#gallery li a p {
-  margin: 0;
-  padding: 5%;
-  font-size: 0.75em;
-  color: #bdc3c7
+.project {
+  padding: 20px 20px;
 }
 
+.project img {
+  width: 100%;
+  border-radius: 10px;
+}
 
+.explanation-text {
+  padding: 5px 10px 0 10px;
+}
+
+.reflection-button button {
+  color: #fff;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  background: #000;
+  font-size: 1em;
+  border: 3px solid #000;
+  border-radius: 5px;
+}
+
+.reflection-button button:hover {
+  color: #000;
+  background: #fff;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index:100;
+}
+
+.popup {
+  margin:calc(30vh - 100px) auto 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  height: calc(70vh);
+  position: relative;
+  transition: all 5s ease-in-out;
+
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: 'nerisbold', sans-serif;
+  font-size: 1.4em;
+  width: 80%;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup {
+  max-height: 90%;
+  overflow-y: scroll;
+}
 
 /**********************************
 PAGE: ABOUT
 ***********************************/
-
-.profile-photo {
-  display: block;
-  max-width: 200px;
-  margin: 0 auto 30px;
-
+.about-me-div {
+  padding: 30px 0;
 }
 
+.profile-photo {
+  width: 100%;
+  border-radius: 20px;
+}
 
+.about-me-div-content p {
+  font-family: 'nerislight', sans-serif;
+  font-size: 1.2em;
+}
+
+.about-me-div-content h4 {
+  font-family: 'nerislight', sans-serif;
+  text-align: center;
+}
 
 /**********************************
 PAGE: CONTACT
 ***********************************/
 
-.contact-info {
+.contact-info-ul {
   list-style: none;
+  font-size: 1.2em;
   padding: 0;
-  margin: 0;
-  font-size: 0.9em;
+  margin: 30px auto;
 }
 
-.contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
+.contact-info-ul a {
+  text-decoration: none;
+  font-family: 'nerislight', sans-serif;
+  color: #000;
+  margin: 15px 0;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 5px;
 }
 
-.contact-info li.phone a {
-  background-image: url('../img/phone.png');
+.contact-info-ul span {
+  padding-left: 10px;
 }
 
-.contact-info li.mail a {
-  background-image: url('../img/mail.png');
+.contact-info-ul a:hover {
+  color: #fff;
+  background-color: #000;
 }
 
-.contact-info li.twitter a {
-  background-image: url('../img/twitter.png');
+.facebook {
+  width: 50px;
 }
 
-
+.phone,
+.email {
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 3px;
+  width: 45px;
+}
 
 /**********************************
-COLORS
+FOOTER
 ***********************************/
 
-/* site body */
-body {
-  background-color: #3498db;
-  color: #000;
+footer  {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 40px;
 }
 
-/* green header */
-header {
-  background: #0066CC;
-  border-color: #FFFFFF;
+.footer-paragraph {
+  margin: 0 auto;
+  color: white;
+  font-family: "lato";
+  padding: 10px 0 10px;
+  font-size: 1em;
 }
 
-/* nav background on mobile */
-nav {
-  background-color: #003399;
-}
-/* logo text */
-h1, h2 {
-  color: #000000;
-}
+/**********************************
+MEDIA QUERIES
+***********************************/
 
+@media screen and (max-width: 767px) {
 
-/* links */
-a {
-  color: #0000FF;
-}
+  #myNavbar {
+    padding-top: 0;
+  }
 
-/* nav link */
-nav a, nav a:visited {
-  color: #FFFFFF;
-}
+  #myNavbar li:last-child {
+    margin-right: 15px;
+  }
 
-/* selected nav link */
+  #myNavbar li {
+    margin: 0 15px 0 15px;
+    text-align: center;
+  }
 
-nav li.active a, nav a:hover {
-  color: #FF0000;
+  .popup {
+    width: 90%;
+
+  }
+
+  .contact-info-ul {
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+  .facebook {
+    width: 40px;
+  }
+
+  .phone,
+  .email {
+    width: 35px;
+  }
 }

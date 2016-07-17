@@ -4,156 +4,466 @@
     <meta charset="utf-8">
     <title>Olga Tarassova - Portfolio</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap-theme.css" media="screen" title="no title" charset="utf-8">
+    <script src="jquery/jquery-3.0.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/main.css">
   </head>
+
   <body>
-    <header>
-      <a href="index.html" id="logo">
-        <h1>Olga Tarassova</h1>
-        <h2>Student at FRON15</h2>
-      </a>
-      <nav>
-        <ul>
-        <li class="active"><a href="index.html">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="applepieinfo.html">Apple pie</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div id="wrapper">
-      <section>
+    <main class="container-fluid">
 
-        <article class="">
-          <h3>Welcome to my world!</h3>
-        </article>
+      <div class="page-header navbar-fixed-top">
+        <a href="index.html"><img src="img/olga_logo.png" alt="Olga logo" class="scroll-top olga-logo pull-left"></a>
+        <div class="navbar-header">
+          <button type="button" id="nav-toggle" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+            <img src="img/menu.svg" alt="menu-bar" class="menu-icon">
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="scroll-link" data-id="portfolio">Portfolio</a></li>
+            <li><a href="#" class="scroll-link" data-id="about-me">About me</a></li>
+            <li><a href="#" class="scroll-link" data-id="contact-me">Contact me</a></li>
+          </ul>
+        </div>
+      </div>
 
-        <article class="">
-          <h3>2016-02-07</h3>
-          <h4>Web Application using API (C_3)</h4>
-          <p>
-            For this assignment I've decided to use Debaser's API and give the user to see what music events happen on the specific date and venue. The link to web application is <a href="http://olgatar.github.io/fro15_c3_api/"> here :). </a>Mockup is below.
-          </p>
-          <div><a href="http://olgatar.github.io/fro15_c3_api/"><img src="img/c3_debaser-api.PNG" alt="Music events" /></a></div>
-          <p>
-
-          </p>
-        </article>
-
-        <article class="">
-          <h3>2016-01-20</h3>
-          <h4>Web Application Game (C_2)</h4>
-          <p>
-            If you want to show a master class in guitar chords knowledge do it <a href="http://olgatar.github.io/fro15_c2_spel/"> here :). </a>Mockup is below.
-          </p>
-          <div><a href="http://olgatar.github.io/fro15_c2_spel/"><img src="img/c2_spel.PNG" alt="Chords Master Game" /></a></div>
-          <p>
-
-          </p>
-        </article>
-
-        <article class="">
-          <h3>2015-12-28</h3>
-          <h4>ToDo Web Application (C_1)</h4>
-          <p>
-            My first interactive ToDo Web Application is now ready and you can try it <a href="http://olgatar.github.io/fro15_c1_todo/"> here. </a>Mockup is below. That was again very interesting and challenging to do. More coding with JavaScript, great! I've even had a little practice to implement a media queries within JavaScript and it worked well. I also learned and got my first practice with Web Local Storage and JSON files. That was probably the most challenging part for me as I never worked with them before. It will be nice to get more knowledge of that.
-          </p>
-          <div><a href="http://olgatar.github.io/fro15_c1_todo/"><img src="img/c1todolist.PNG" alt="ToDo Web Application" /></a></div>
-          <p>
-
-          </p>
-        </article>
-
-        <article class="">
-          <h3>2015-12-06</h3>
-          <h4>Interactive Infographic (B_5)</h4>
-          <p>
-            My first Interactive Infographic is now finished! You can see it online <a href="http://olgatar.github.io/infographic_b5/"> here. </a>That was a challenging assignment but very interesting! Mockup is below.
-          </p>
-          <div><a href="http://olgatar.github.io/infographic_b5/"><img src="img/mockup.PNG" alt="Mockup Interactive Infographic" /></a></div>
-          <p>
-            I decided to create infographics that would help anyone who want to play a song "Silent Night" (by B.J. Thomas) on guitar. Becides the song lyrics you can see a guitar tabs and you can even listen to how each chord sound if you click on chords and tabs.
-          </p>
-          <p>
-            While coding I used Bootstrap grid system to create a responsive design and JavaScript and JQuery to make the interaction possible.
-          </p>
-        </article>
-
-        <article class="">
-          <h3>2015-11-29</h3>
-          <h4>My reflection on B3 and B4 assignments</h4>
-          <p>
-            I was very glad and inspired when we got an assignment to create our first web design agency website from scratch i.e. from concept to the actual well-designed and functional webpages. Before we could start programming a lot of conceptual decisions should have been made. What will be the main purpose of our agency and who will be our customers? What logotype and graphical design we choose? What programming approach we choose to create attractive and functional webpages? What tools will we use to let our customers to communicate with us using our website? How we will organize our group work and how will we split the responsibilities between the team members?
-          </p>
-          <p>
-            In order to organize our work progress in a good and efficient way our team was working according one of the agile methods Scrum. For the first time I got to actually experience how easier the work can be by using this method. It was interesting and challenging to try a Scrum Master role i.e. responsibility to organize our team work and inspire and help whenever needed.
-          </p>
-          <p>
-            During our first group meeting we’ve decided to have a Sprint planning meeting in Slack once a week and we used Trello to plan and have track of our tasks during each one-week sprint. During the week we communicated via slack, in channels created for specific purposes, like daily scrum, deadlines or e.g. channel for mockups. That made it easier to find the information you need later on in each channel and keep deadlines.
-          </p>
-          <p>
-            While building our website we decided to create a website with one html page including 4 different sections: landing page, page about us, portfolio and a contact page. With this approach we give our users a choice to both scroll up to the last page and navigating between pages using navigation menu. Each member of our group had an opportunity to come up with our company name and purpose, to design own logotype and a mockup for each webpage. I think it was a great decision as we all had an opportunity to try all parts of this process and share more different ideas. Instead of choosing someone’s individual winning concept we have chosen to combine our best ideas.
-          </p>
-          <p>
-            Already on the mockup stage we decided to sketch our webpages on 3 types of platforms: desktop, tablet and mobile. That would help us to make our webpage as responsive as possible and to make the coding stage more fast and efficient.
-          </p>
-          <p>
-            We used GitHub version management system. That was challenging but very good experience of the frontend developers team work while coding. We did not have many coding conflicts as each of us was mainly working on only one page/section in html and css for it. However, of course, if any help was needed or any of us had a better code solution for some parts than each of us was ready to help and share.
-          </p>
-        </article>
-
-        <article class="">
-          <h3>2015-11-01</h3>
-          <h4>Now I'm ready with assignment B2 CSS</h4>
-          <p>
-            Here is <a href="B2_CSS/index.html">CSS Zen Garden Webpage </a>designed with CSS. Here is a <a href="B2_CSS/img/B2_Zen_Garden_CSS_skiss.png">Wireframe </a>to CSS Zen Garden Webpage. Here is a link to <a href="https://github.com/olgatar/fro15_b2_css">GitHub repository</a>.
-          </p>
-        </article>
-
-        <article class="">
-          <h3>2015-10-07</h3>
-          <h4>Check Apple Pie page! A recipe of my favourite apple pie is there :)!</h4>
-        </article>
-
-        <article class="">
-          <h3>2015-09-25</h3>
-          <h4>A Professional Role of Frontend Developer (A3_Yrkesroll - Frontend)</h4>
-          <p>
-            The first website was launched on the World Wide Web in 1991. That was a webpage with a quite simple design based mainly on text and tables. Since then Web was progressively developing, great improvements has been done on its functionality, speed and graphical design. Besides the growing amount of web services and applications like Google Maps and social media available, the web has become more client oriented and allows the users not only to interact through the web but even create the content by themselves. But what and who should we thank for this amazing progress? What knowledge is required and what role does each member of the web development team has?<br>To develop a user-friendly and well and fast functioned website or application with a beautiful high-quality design requires a team of quite a few experts with different backgrounds. Besides the content producers, support team and Quality Assurance (QA) experts, the web development team includes:
-            <ul class="mylist">
-              <li><a href="http://searchwindevelopment.techtarget.com/answer/How-are-front-end-development-and-back-end-development-different"><b>Backend developers</b></a> who work on the server-side development. Primarily they build an application by creating a code in <a href="https://en.wikipedia.org/wiki/PHP">PHP</a>, <a href="https://www.ruby-lang.org/en/about/">Ruby</a>, <a href=" https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a>, <a href="https://en.wikipedia.org/wiki/.NET_Framework">.NET</a> or/and <a href=" https://en.wikipedia.org/wiki/Java_(programming_language) ">Java</a> which communicates with databases like e.g. <a href="http://www.mysql.com/products/">MySQL</a> and transfer the data from and back to the user interface.</li>
-              <li><b>Web designers</b> including a team of graphic designers who create a high-quality visual elements like e.g. icons and choose the suitable typography; and <a href="http://www.fastcodesign.com/3032719/ui-ux-who-does-what-a-designers-guide-to-the-tech-industry"> User Interface (UI) and User Experience (UX) designers</a> who work on the layout and interaction models of the webpages.</li>
-              <li><b> Frontend developers</b> who work on client-side development.</li>
-            </ul>
-            I am now studying and so far aiming to mainly work in frontend so I would like to make a closer look on what role the frontend developer has. As I’ve mentioned above the frontend developers are mainly working on the client-side development i.e. specifically on the visible interface that the user can see and interact with. In general, the frontend developer creates clear, fast, functional and user-friendly webpages and interfaces while writing a code using at least three main programming languages: the <a href="https://en.wikipedia.org/wiki/HTML"> HyperText Markup language (HTML)</a> which provides a framework of the web page layout, <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">Cascade Styling Sheet (CSS)</a> used to describe a visual representation and formatting of the document written in HTML and <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a> - an event-based programming language that is used to transform a static HTML page into a dynamic interface i.e. to enable a web page to interact with its user. To write a code using the above languages the developers use <a href="https://en.wikipedia.org/wiki/Integrated_development_environment"> Development Environments (IDE)</a> which in general is a code compiler with different features implemented depending on the programming language. The main purpose is to make the programming process easier. There are many IDEs available like WebStorm for JavaScript, IntelliJ commonly used while coding in Java but which one you choose is a matter of programming language choice and taste.<br>There are many literature and internet sources providing information on what knowledge and experience should one have to be a successful member of the frontend development team. However, to get a better insight into frontend developing work I interviewed one of the frontend developers working at the <a href="http://www.onspotstory.com/en/about"> OnSpotStory</a> company.<br>OnSpotStory is the leading Nordic company that is working on building web and mobile applications that provides their users information about different historical places in form of guides and could be run on IOS, Android and other mobile platforms. Using the GPS location, QR code reading function or the dial-in service the user can easily get a historical information about the place or an object at the location you are at the moment. Guides are provided by the OnSpotStory app with text, video, images and even sound. Their team is currently working on a mobile game application, a museum guide system, that aim to help children to learn the Swedish culture history in an interactive and entertaining way.<br>My interviewee’s current development team consists of one project leader and two backend/frontend developers.  From my interviewee’s point of view their team is quite small and he wishes that more members would join to be able to do a proper work fast enough. However, so far they do not experience any bigger problems. They are constantly trying to apply the <a href="https://en.wikipedia.org/wiki/Agile_software_development">Agile Methods</a> of their project management while working on their projects in the best way they can under current circumstances.  After the project aim is defined they discuss and the make a good planning of the future work.  However, while working on the project they always try to be flexible and easily adapt to any changes that should be done whenever needed.<br>As their team do not include any graphical designer, they get help from an external graphical designers when some features need to be graphically designed before they could start to code the <a href="https://en.wikipedia.org/wiki/Graphical_user_interface">Graphical User Interface (GUI)</a>. However, from my interviewee’s point of view, any successful frontend developer should have a good knowledge on and understanding of Scalable Vector Graphics (SVG) to be able to create a web page with visual elements with high quality and best resolution, and to be able to make them interactive.<br>In order to develop mobile applications they are using a project called <a href="https://cordova.apache.org/">Apache Cordova</a>. Apache Cordova is a set of device application programming interfaces (APIs) which allows a mobile app developer to compile an application on tablets, IPhone and Android by using just HTML, CSS and JavaScript combined with a User Interface (UI) framework library such as <a href="https://jquerymobile.com/">jQuery Mobile</a> which is similar to usual <a href="https://jqueryui.com/">jQuery</a> library but specifically made for mobile applications. They use <a href="https://en.wikipedia.org/wiki/Git_(software)">Git</a> as a <a href="https://en.wikipedia.org/wiki/Version_control">Version Control System (VCS)</a> to perform a constant version control.<br>It happened to be so that the person I interviewed, before starting to work as a frontend developer, had a deep knowledge and quite big experience in backend development. So, he even created a <a href="https://en.wikipedia.org/wiki/Content_management_system">Content Management System (CMS)</a> for their applications written in PHP following most of the Representational State Transfer (REST) protocol for best performance. CMS is basically a computer application that allows the connection to and communication with the database, specifically to store and organize files, and provide version-controlled access to user’s data. The OnSpotStory app CMS makes it possible to manage all of the user’s guide data without needing to send it to OnSpotStory in case they want to use a feature to create their own guides using the app. He also developed a code in JavaScript that handles and transfers big size data in a fastest possible way.<br>At this point my interviewee pointed out that even it is not essential for the frontend developer to have as good knowledge in backend as he has himself but it is important to have a good understanding in backend to be able to communicate well with the backend developers and understand each other’s needs.<br>He also mentioned that during the development stage they always test their application first on different web browsers. Some of them can differ in functionality, in e.g. size of memory storage and could have other specific limitations that the frontend development should be aware of and account for. These sometimes quite small differences can have a big impact on the JavaScript you write.<br>He also added that while working on the codes he always tries to be consistent with his chosen good working standard, for example constantly follow a good structure of the technique he writes the code with. It makes it easier to do changes in the code that was written some time ago whenever needed if you e.g. name your variables and functions in the best descriptive way and do not change it in your next scripts.<br>On my last question – “How you sees the future of the frontend developer and what new interesting features could appear in the digital world?” - my interviewee replied that both JavaScript language and the frontend developer’s services in general will continue to be constantly used and needed. Nowadays, a frontend developer do not just create a webpage but writes a complete program in form of web and mobile applications. More and more different new platforms and portable devices we see appearing on the digital world market. And as it is a frontend developer’s role to make it possible to run different applications on these new devices and platforms, the need of frontend developer will only continue to grow. As an example of the new cool project, he mentioned a development of the virtual reality experience using just a web browser. So, it is possible to create a website with 3D image and video working feature using JavaScript. He thinks that when Sony’s Oculus and Samsung’s new feature will be enough developed a virtual reality experience via website will be launched and that will have high popularity among its users.
-            </p>
-        </article>
-
-        <article class="">
-          <h3>2015-09-06</h3>
-          <h4>Web in 5 Years</h4>
-          <p>
-            Web development made a huge step forward since the web was launched and began to be available for users. There is a big improvement of its speed, functionality and graphical design. It became more user directed and last but not the least a great number of services that are provided online on both PCs and other portable devices like smartphones.<br>It is hard to say how the web will look like in 5 years but I think a lot will continue to depend on the user needs and the creativity of the web developer. I think the more work will be done to make the web more secure (virus protected) and faster so that it will take even less time to download the web pages irrespective of how much information the web page has (text, images and video). There will be more improvement in graphical design. Better resolution and line precision, more balanced color and possibly more of the 3D effect of images and text on the web page.<br>Nowadays there are so many services available on the internet e.g. bank services, shopping, learning tutorials, social media, GPS, maps, TV online and many applications on the smart phone and devices other than PC. The amount of those services will of course grow depending on the customer needs and they will be more easy-to-use and secure so that, for example, the customer will be willing to make payments for and use more services online with no feeling of risk.<br>Despite the progress so far, both users and the web developers are still experiencing problems with the compatibility of the web page on different web browsers and platforms. I may guess, the big improvement could happen here as well. It will either be one and only, well functional web browser be developed or all other will come to its best functionality so that the web developer would not need to think so much about the compatibility.<br>What I would wish myself is that less advertisement would appear on different websites. I understand the need of it but the web page could be designed so that the advertisement will be there without visually disturbing so much the main content of the web side. Also, I wish that more improvement will be done for the websites providing direct online services for research data and statistical analysis. They could be more functional, more user friendly and faster. More information on the theory behind each test could be added to make it easier for the user to understand the choice of this or that test.
-          </p>
-        </article>
-
-        <article class="">
-          <h3>2015-09-01</h3>
-          <h4>Now it is time to tell you more about me. Check the About section!</h4>
-        </article>
-
-        <article class="">
-          <h3>2015-08-31</h3>
-          <h4>Today my studies started at FRON15!</h4>
-        </article>
-
+      <section class="landingpage">
+       <div class="landing-wrapper">
+         <img src="img/landing.jpg" class="img-responsive" alt="Responsive image">
+          <div class="landing-slogan">
+            <h1 class="landingpage-h1 text-center">Front-end developer</h1>
+            <h2 class="landingpage-h2 text-center">Student at Lernia with passion to programming</h2>
+          </div>
+       </div>
       </section>
-      <footer>
-        <p>&copy; 2015 Olga Tarassova</p>
+
+      <section class="portfolio page-section" id="portfolio">
+
+        <div class="wrapper">
+          <h1 class="text-center">Portfolio</h1>
+        </div>
+
+        <div class="container">
+          <div class="row">
+
+            <div class="project col-md-3 col-lg-3" id="c4">
+              <div class="project-heading text-center">
+                <h4>2016-02-03</h3>
+                <h4>C4 - Webapp VolunteerLink</h4>
+              </div>
+
+              <a href="http://olgatar.github.io/c4_group_webapp/"><img src="img/c4_webapp_group.PNG" class="img-responsive" alt="C4 Webapp image" /></a>
+
+              <div class="explanation-text col-md-12 col-lg-12">
+                <a class="reflection-button" href="#popup11"><button type="button" name="button">Read more about C4</button></a>
+                <div id="popup11" class="overlay">
+                  <div class="popup">
+                    <h2>C4 - Webapp VolunteerLink</h2>
+                    <a class="close" href="#c4">&times;</a>
+                    <div class="content">
+                      <p>
+                        This project was done by me and two other students in our class, Sandra Widmark and Stina Sköld. That was really cool and challenging!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="project col-md-3 col-lg-3" id="c3">
+              <div class="project-heading text-center">
+                <h4>2016-02-03</h3>
+                <h4>C3 - Webapp-API</h4>
+              </div>
+
+              <a href="http://olgatar.github.io/fro15_c3_api/"><img src="img/c3_debaser-api.PNG" class="img-responsive" alt="Music events" /></a>
+
+              <div class="explanation-text col-md-12 col-lg-12">
+                <a class="reflection-button" href="#popup10"><button type="button" name="button">Read more about C3</button></a>
+                <div id="popup10" class="overlay">
+                	<div class="popup">
+                		<h2>C3 - Webapp-API</h2>
+                		<a class="close" href="#c3">&times;</a>
+                		<div class="content">
+                      <p>
+                        Learned how to use Debaser's API to post all availale music events for the date and venue that the users select.
+                      </p>
+                		</div>
+                	</div>
+                </div>
+              </div>
+
+            </div>
+
+        <div class="project col-md-3 col-lg-3" id="c2">
+          <div class="text-center">
+            <h4>2016-01-20</h3>
+            <h4>C2 - Webapp-Game</h4>
+          </div>
+          <a href="http://olgatar.github.io/fro15_c2_spel/"><img src="img/c2_spel.PNG" class="img-responsive" alt="Chords Master Game" /></a>
+
+          <div class="explanation-text col-md-12 col-lg-12">
+            <a class="reflection-button" href="#popup9"><button type="button" name="button">Read more about C2</button></a>
+            <div id="popup9" class="overlay">
+              <div class="popup">
+                <h2>C2 - Webapp-Game</h2>
+                <a class="close" href="#c2">&times;</a>
+                <div class="content">
+                  <p>
+                    My first interactive game made using HTML5, CSS and JavaScript. Enjoy and show a master class in guitar chords knowledge!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="project col-md-3 col-lg-3" id="c1">
+          <div class="text-center">
+            <h4>2015-12-28</h3>
+            <h4>C1 - Webapp-ToDo list</h4>
+          </div>
+
+          <a href="http://olgatar.github.io/fro15_c1_todo/"><img src="img/c1todolist.PNG" class="img-responsive" alt="ToDo Web Application" /></a>
+          <div class="explanation-text col-md-12 col-lg-12">
+            <a class="reflection-button" href="#popup8"><button type="button" name="button">Read more about C1</button></a>
+            <div id="popup8" class="overlay">
+              <div class="popup">
+                <h2>C1 - Webapp-ToDo list</h2>
+                <a class="close" href="#c1">&times;</a>
+                <div class="content">
+                  <p>
+                    My first interactive ToDo Web Application is now ready! That was again very interesting and challenging to do. More coding with JavaScript, great! I've even had a little practice to implement a media queries within JavaScript and it worked well. I also learned and got my first practice with Web Local Storage and JSON files. That was probably the most challenging part for me as I never worked with them before. It will be nice to get more knowledge of that.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+
+        <div class="project col-md-3 col-lg-3" id="b5">
+          <div class="text-center">
+            <h4>2015-12-06</h3>
+            <h4>B5 - Interactive Infographic</h4>
+          </div>
+
+          <a href="http://olgatar.github.io/infographic_b5/"><img src="img/mockup.PNG"  class="img-responsive" alt="Mockup Interactive Infographic" /></a>
+
+          <div class="explanation-text col-md-12 col-lg-12">
+            <a class="reflection-button" href="#popup7"><button type="button" name="button">Read more about B5</button></a>
+            <div id="popup7" class="overlay">
+              <div class="popup">
+                <h2>B5 - Interactive Infographic</h2>
+                <a class="close" href="#b5">&times;</a>
+                <div class="content">
+                  <p>
+                    My first Interactive Infographic is now finished! That was a challenging assignment but very interesting!
+                  </p>
+                  <p>
+                    I decided to create infographics that would help anyone who want to play a song "Silent Night" (by B.J. Thomas) on guitar. Becides the song lyrics you can see a guitar tabs and you can even listen to how each chord sound if you click on chords and tabs.
+                  </p>
+                  <p>
+                    While coding I used Bootstrap grid system to create a responsive design and JavaScript and JQuery to make the interaction possible.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="project col-md-3 col-lg-3" id="b4">
+          <div class="text-center">
+            <h4>2015-11-29</h3>
+            <h4>B4 - Webdesign agency website</h4>
+          </div>
+
+          <a href="http://sandra-widmark.github.io/fro15grupp5b_b4/"><img src="img/b4_group.PNG" class="img-responsive" alt="B4" /></a>
+          <div class="explanation-text col-md-12 col-lg-12">
+            <a class="reflection-button" href="#popup6"><button type="button" name="button">Read more about B3 & B4</button></a>
+            <div id="popup6" class="overlay">
+              <div class="popup">
+                <h2>B4 - Webdesign agency website (using framework)</h2>
+                <a class="close" href="#b4">&times;</a>
+                <div class="content">
+                  <p>
+                    I was very glad and inspired when we got an assignment to create our first web design agency website from scratch i.e. from concept to the actual well-designed and functional webpages. Before we could start programming a lot of conceptual decisions should have been made. What will be the main purpose of our agency and who will be our customers? What logotype and graphical design we choose? What programming approach we choose to create attractive and functional webpages? What tools will we use to let our customers to communicate with us using our website? How we will organize our group work and how will we split the responsibilities between the team members?
+                  </p>
+                  <p>
+                    In order to organize our work progress in a good and efficient way our team was working according one of the agile methods Scrum. For the first time I got to actually experience how easier the work can be by using this method. It was interesting and challenging to try a Scrum Master role i.e. responsibility to organize our team work and inspire and help whenever needed.
+                  </p>
+                  <p>
+                    During our first group meeting we’ve decided to have a Sprint planning meeting in Slack once a week and we used Trello to plan and have track of our tasks during each one-week sprint. During the week we communicated via slack, in channels created for specific purposes, like daily scrum, deadlines or e.g. channel for mockups. That made it easier to find the information you need later on in each channel and keep deadlines.
+                  </p>
+                  <p>
+                    While building our website we decided to create a website with one html page including 4 different sections: landing page, page about us, portfolio and a contact page. With this approach we give our users a choice to both scroll up to the last page and navigating between pages using navigation menu. Each member of our group had an opportunity to come up with our company name and purpose, to design own logotype and a mockup for each webpage. I think it was a great decision as we all had an opportunity to try all parts of this process and share more different ideas. Instead of choosing someone’s individual winning concept we have chosen to combine our best ideas.
+                  </p>
+                  <p>
+                    Already on the mockup stage we decided to sketch our webpages on 3 types of platforms: desktop, tablet and mobile. That would help us to make our webpage as responsive as possible and to make the coding stage more fast and efficient.
+                  </p>
+                  <p>
+                    We used GitHub version management system. That was challenging but very good experience of the frontend developers team work while coding. We did not have many coding conflicts as each of us was mainly working on only one page/section in html and css for it. However, of course, if any help was needed or any of us had a better code solution for some parts than each of us was ready to help and share.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="project col-md-3 col-lg-3" id="b3">
+          <div class="text-center">
+            <h4>2015-11-29</h3>
+            <h4>B3 - Webdesign agency website</h4>
+          </div>
+
+          <a href="http://olgatar.github.io/fro15grupp5b_b3/"><img src="img/b3_group.PNG" class="img-responsive" alt="B3" /></a>
+          <div class="explanation-text col-md-12 col-lg-12">
+            <a class="reflection-button" href="#popup5"><button type="button" name="button">Read more about B3 & B4</button></a>
+            <div id="popup5" class="overlay">
+              <div class="popup">
+                <h2>B3 - Webdesign agency website (without any framwork)</h2>
+                <a class="close" href="#b3">&times;</a>
+                <div class="content">
+                  <p>
+                    I was very glad and inspired when we got an assignment to create our first web design agency website from scratch i.e. from concept to the actual well-designed and functional webpages. Before we could start programming a lot of conceptual decisions should have been made. What will be the main purpose of our agency and who will be our customers? What logotype and graphical design we choose? What programming approach we choose to create attractive and functional webpages? What tools will we use to let our customers to communicate with us using our website? How we will organize our group work and how will we split the responsibilities between the team members?
+                  </p>
+                  <p>
+                    In order to organize our work progress in a good and efficient way our team was working according one of the agile methods Scrum. For the first time I got to actually experience how easier the work can be by using this method. It was interesting and challenging to try a Scrum Master role i.e. responsibility to organize our team work and inspire and help whenever needed.
+                  </p>
+                  <p>
+                    During our first group meeting we’ve decided to have a Sprint planning meeting in Slack once a week and we used Trello to plan and have track of our tasks during each one-week sprint. During the week we communicated via slack, in channels created for specific purposes, like daily scrum, deadlines or e.g. channel for mockups. That made it easier to find the information you need later on in each channel and keep deadlines.
+                  </p>
+                  <p>
+                    While building our website we decided to create a website with one html page including 4 different sections: landing page, page about us, portfolio and a contact page. With this approach we give our users a choice to both scroll up to the last page and navigating between pages using navigation menu. Each member of our group had an opportunity to come up with our company name and purpose, to design own logotype and a mockup for each webpage. I think it was a great decision as we all had an opportunity to try all parts of this process and share more different ideas. Instead of choosing someone’s individual winning concept we have chosen to combine our best ideas.
+                  </p>
+                  <p>
+                    Already on the mockup stage we decided to sketch our webpages on 3 types of platforms: desktop, tablet and mobile. That would help us to make our webpage as responsive as possible and to make the coding stage more fast and efficient.
+                  </p>
+                  <p>
+                    We used GitHub version management system. That was challenging but very good experience of the frontend developers team work while coding. We did not have many coding conflicts as each of us was mainly working on only one page/section in html and css for it. However, of course, if any help was needed or any of us had a better code solution for some parts than each of us was ready to help and share.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="project col-md-3 col-lg-3" id="b2">
+          <div class="text-center">
+            <h4>2015-11-01</h3>
+            <h4>B2 - Zen Garden CSS</h4>
+          </div>
+
+          <a href="B2_CSS/index.html"><img src="img/b2_zen_garden.PNG" class="img-responsive" alt="Zen Garden CSS" /></a>
+          <div class="explanation-text col-md-12 col-lg-12">
+            <a class="reflection-button" href="#popup4"><button type="button" name="button">Read more about B2</button></a>
+            <div id="popup4" class="overlay">
+              <div class="popup">
+                <h2>B2 - Zen Garden Webpage (CSS)</h2>
+                <a class="close" href="#b2">&times;</a>
+                <div class="content">
+                  <p>
+                    Here is CSS Zen Garden Webpage designed with CSS. Here is a <a href="B2_CSS/img/B2_Zen_Garden_CSS_skiss.png">Wireframe </a>to CSS Zen Garden Webpage. Here is a link to <a href="https://github.com/olgatar/fro15_b2_css">GitHub repository</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+
+        <div class="project col-md-3 col-lg-3" id="b1">
+          <div class="text-center">
+            <h4>2015-10-07</h3>
+            <h4>B1 - Apple Pie Recipe (HTML)</h4>
+          </div>
+
+          <a href="applepieinfo.html"><img src="img/applepie.jpg" class="img-responsive" alt="Apple Pie" /></a>
+          <div class="explanation-text col-md-12 col-lg-12">
+            <a class="reflection-button" href="#popup3"><button type="button" name="button">Read more about B1</button></a>
+            <div id="popup3" class="overlay">
+              <div class="popup">
+                <h2>B1 - Apple Pie (HTML)</h2>
+                <a class="close" href="#b1">&times;</a>
+                <div class="content">
+                  <p>
+                    An Apple Pie HTML webpage! A recipe of my favourite apple pie is there :)!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="project col-md-3 col-lg-3" id="a3">
+          <div class="text-center">
+            <h4>2015-09-25</h3>
+            <h4>A3 - Frontend developer role</h4>
+          </div>
+
+          <a class="reflection-button" href="#popup9"><img src="img/type-assignment.jpg" class="img-responsive" alt="Image" /></a>
+          <div class="explanation-text col-md-12 col-lg-12">
+            <a class="reflection-button" href="#popup2"><button type="button" name="button">Read more about A3</button></a>
+            <div id="popup2" class="overlay">
+              <div class="popup">
+                <h2>A3 - A professional role of Frontend Developer</h2>
+                <a class="close" href="#a3">&times;</a>
+                <div class="content">
+                  <p>
+                    The first website was launched on the World Wide Web in 1991. That was a webpage with a quite simple design based mainly on text and tables. Since then Web was progressively developing, great improvements has been done on its functionality, speed and graphical design. Besides the growing amount of web services and applications like Google Maps and social media available, the web has become more client oriented and allows the users not only to interact through the web but even create the content by themselves. But what and who should we thank for this amazing progress? What knowledge is required and what role does each member of the web development team has?
+                    <p>
+                      To develop a user-friendly and well and fast functioned website or application with a beautiful high-quality design requires a team of quite a few experts with different backgrounds. Besides the content producers, support team and Quality Assurance (QA) experts, the web development team includes:
+                    </p>
+                    <ul class="mylist">
+                      <li><a href="http://searchwindevelopment.techtarget.com/answer/How-are-front-end-development-and-back-end-development-different"><b>Backend developers</b></a> who work on the server-side development. Primarily they build an application by creating a code in <a href="https://en.wikipedia.org/wiki/PHP">PHP</a>, <a href="https://www.ruby-lang.org/en/about/">Ruby</a>, <a href=" https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a>, <a href="https://en.wikipedia.org/wiki/.NET_Framework">.NET</a> or/and <a href=" https://en.wikipedia.org/wiki/Java_(programming_language) ">Java</a> which communicates with databases like e.g. <a href="http://www.mysql.com/products/">MySQL</a> and transfer the data from and back to the user interface.</li>
+                      <li><b>Web designers</b> including a team of graphic designers who create a high-quality visual elements like e.g. icons and choose the suitable typography; and <a href="http://www.fastcodesign.com/3032719/ui-ux-who-does-what-a-designers-guide-to-the-tech-industry"> User Interface (UI) and User Experience (UX) designers</a> who work on the layout and interaction models of the webpages.</li>
+                      <li><b> Frontend developers</b> who work on client-side development.</li>
+                    </ul>
+                  </p>
+                  <p>
+                    I am now studying and so far aiming to mainly work in frontend so I would like to make a closer look on what role the frontend developer has. As I’ve mentioned above the frontend developers are mainly working on the client-side development i.e. specifically on the visible interface that the user can see and interact with. In general, the frontend developer creates clear, fast, functional and user-friendly webpages and interfaces while writing a code using at least three main programming languages: the <a href="https://en.wikipedia.org/wiki/HTML"> HyperText Markup language (HTML)</a> which provides a framework of the web page layout, <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">Cascade Styling Sheet (CSS)</a> used to describe a visual representation and formatting of the document written in HTML and <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a> - an event-based programming language that is used to transform a static HTML page into a dynamic interface i.e. to enable a web page to interact with its user. To write a code using the above languages the developers use <a href="https://en.wikipedia.org/wiki/Integrated_development_environment"> Development Environments (IDE)</a> which in general is a code compiler with different features implemented depending on the programming language. The main purpose is to make the programming process easier. There are many IDEs available like WebStorm for JavaScript, IntelliJ commonly used while coding in Java but which one you choose is a matter of programming language choice and taste.<br>There are many literature and internet sources providing information on what knowledge and experience should one have to be a successful member of the frontend development team. However, to get a better insight into frontend developing work I interviewed one of the frontend developers working at the <a href="http://www.onspotstory.com/en/about"> OnSpotStory</a> company.
+                    <p>
+                      OnSpotStory is the leading Nordic company that is working on building web and mobile applications that provides their users information about different historical places in form of guides and could be run on IOS, Android and other mobile platforms. Using the GPS location, QR code reading function or the dial-in service the user can easily get a historical information about the place or an object at the location you are at the moment. Guides are provided by the OnSpotStory app with text, video, images and even sound. Their team is currently working on a mobile game application, a museum guide system, that aim to help children to learn the Swedish culture history in an interactive and entertaining way.
+                    </p>
+                    <p>
+                      My interviewee’s current development team consists of one project leader and two backend/frontend developers.  From my interviewee’s point of view their team is quite small and he wishes that more members would join to be able to do a proper work fast enough. However, so far they do not experience any bigger problems. They are constantly trying to apply the <a href="https://en.wikipedia.org/wiki/Agile_software_development">Agile Methods</a> of their project management while working on their projects in the best way they can under current circumstances.  After the project aim is defined they discuss and the make a good planning of the future work.  However, while working on the project they always try to be flexible and easily adapt to any changes that should be done whenever needed.
+                    </p>
+                    <p>
+                      As their team do not include any graphical designer, they get help from an external graphical designers when some features need to be graphically designed before they could start to code the <a href="https://en.wikipedia.org/wiki/Graphical_user_interface">Graphical User Interface (GUI)</a>. However, from my interviewee’s point of view, any successful frontend developer should have a good knowledge on and understanding of Scalable Vector Graphics (SVG) to be able to create a web page with visual elements with high quality and best resolution, and to be able to make them interactive.
+                    </p>
+                    <p>
+                      In order to develop mobile applications they are using a project called <a href="https://cordova.apache.org/">Apache Cordova</a>. Apache Cordova is a set of device application programming interfaces (APIs) which allows a mobile app developer to compile an application on tablets, IPhone and Android by using just HTML, CSS and JavaScript combined with a User Interface (UI) framework library such as <a href="https://jquerymobile.com/">jQuery Mobile</a> which is similar to usual <a href="https://jqueryui.com/">jQuery</a> library but specifically made for mobile applications. They use <a href="https://en.wikipedia.org/wiki/Git_(software)">Git</a> as a <a href="https://en.wikipedia.org/wiki/Version_control">Version Control System (VCS)</a> to perform a constant version control.
+                    </p>
+                    <p>
+                      It happened to be so that the person I interviewed, before starting to work as a frontend developer, had a deep knowledge and quite big experience in backend development. So, he even created a <a href="https://en.wikipedia.org/wiki/Content_management_system">Content Management System (CMS)</a> for their applications written in PHP following most of the Representational State Transfer (REST) protocol for best performance. CMS is basically a computer application that allows the connection to and communication with the database, specifically to store and organize files, and provide version-controlled access to user’s data. The OnSpotStory app CMS makes it possible to manage all of the user’s guide data without needing to send it to OnSpotStory in case they want to use a feature to create their own guides using the app. He also developed a code in JavaScript that handles and transfers big size data in a fastest possible way.
+                    <p>
+                      At this point my interviewee pointed out that even it is not essential for the frontend developer to have as good knowledge in backend as he has himself but it is important to have a good understanding in backend to be able to communicate well with the backend developers and understand each other’s needs.
+                    </p>
+                    <p>
+                      He also mentioned that during the development stage they always test their application first on different web browsers. Some of them can differ in functionality, in e.g. size of memory storage and could have other specific limitations that the frontend development should be aware of and account for. These sometimes quite small differences can have a big impact on the JavaScript you write.
+                    </p>
+                    <p>
+                      He also added that while working on the codes he always tries to be consistent with his chosen good working standard, for example constantly follow a good structure of the technique he writes the code with. It makes it easier to do changes in the code that was written some time ago whenever needed if you e.g. name your variables and functions in the best descriptive way and do not change it in your next scripts.
+                    </p>
+                    <p>
+                      On my last question – “How you sees the future of the frontend developer and what new interesting features could appear in the digital world?” - my interviewee replied that both JavaScript language and the frontend developer’s services in general will continue to be constantly used and needed. Nowadays, a frontend developer do not just create a webpage but writes a complete program in form of web and mobile applications. More and more different new platforms and portable devices we see appearing on the digital world market. And as it is a frontend developer’s role to make it possible to run different applications on these new devices and platforms, the need of frontend developer will only continue to grow. As an example of the new cool project, he mentioned a development of the virtual reality experience using just a web browser. So, it is possible to create a website with 3D image and video working feature using JavaScript. He thinks that when Sony’s Oculus and Samsung’s new feature will be enough developed a virtual reality experience via website will be launched and that will have high popularity among its users.
+                    </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="project col-md-3 col-lg-3" id="a2">
+          <div class="text-center">
+            <h4>2015-09-06</h3>
+            <h4>A2 - Web in 5 Years</h4>
+          </div>
+
+          <a class="reflection-button" href="#popup10"><img src="img/type-assignment.jpg" class="img-responsive" alt="Image" /></a>
+          <div class="explanation-text col-md-12 col-lg-12">
+            <a class="reflection-button" href="#popup1"><button type="button" name="button">Read more about A2</button></a>
+            <div id="popup1" class="overlay">
+              <div class="popup">
+                <h2>A2 - Web in 5 Years</h2>
+                <a class="close" href="#a2">&times;</a>
+                <div class="content">
+                  <p>
+                    Web development made a huge step forward since the web was launched and began to be available for users. There is a big improvement of its speed, functionality and graphical design. It became more user directed and last but not the least a great number of services that are provided online on both PCs and other portable devices like smartphones.
+                  <p>
+                  <p>
+                    It is hard to say how the web will look like in 5 years but I think a lot will continue to depend on the user needs and the creativity of the web developer. I think the more work will be done to make the web more secure (virus protected) and faster so that it will take even less time to download the web pages irrespective of how much information the web page has (text, images and video). There will be more improvement in graphical design. Better resolution and line precision, more balanced color and possibly more of the 3D effect of images and text on the web page.
+                  </p>
+                  <p>
+                    Nowadays there are so many services available on the internet e.g. bank services, shopping, learning tutorials, social media, GPS, maps, TV online and many applications on the smart phone and devices other than PC. The amount of those services will of course grow depending on the customer needs and they will be more easy-to-use and secure so that, for example, the customer will be willing to make payments for and use more services online with no feeling of risk.
+                  </p>
+                  <p>
+                    Despite the progress so far, both users and the web developers are still experiencing problems with the compatibility of the web page on different web browsers and platforms. I may guess, the big improvement could happen here as well. It will either be one and only, well functional web browser be developed or all other will come to its best functionality so that the web developer would not need to think so much about the compatibility.
+                  </p>
+                  <p>
+                    What I would wish myself is that less advertisement would appear on different websites. I understand the need of it but the web page could be designed so that the advertisement will be there without visually disturbing so much the main content of the web side. Also, I wish that more improvement will be done for the websites providing direct online services for research data and statistical analysis. They could be more functional, more user friendly and faster. More information on the theory behind each test could be added to make it easier for the user to understand the choice of this or that test.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        </div>
+        </div>
+      </section>
+
+      <section class="about-me page-section" id="about-me">
+         <div class="wrapper">
+           <h1 class="text-center">About me</h1>
+         </div>
+         <div class="container">
+           <div class="about-me-div row">
+             <div class="about-me-img-div col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0">
+               <img src="img/me.jpg" alt="My Photo" class="profile-photo">
+             </div>
+             <div class="about-me-div-content col-xs-12 col-sm-9 col-sm-9 col-lg-9">
+               <h4>
+                 Hi there!
+               </h4>
+               <p>
+                 My name is Olga and I am 33 years old. In 2008 I left my home country Estonia and moved to Sweden.
+               </p>
+               <p>
+                 Besides programming I have a strong passion to research. Currently, I am working as laboratory engineer/research assistant and work a lot with data analyses and statistics. So, if you need any help with that just let me know!
+               </p>
+               <p>
+                 In my free time I practice mindfulness and meditation.  I would love to share my experience with you as I truly believe that compassion and being mindfully present is a cure for many illnesses and is the source to peaceful balance in life. I like to do different kind of sports and am vegetarian to keep myself healthy as long as/as much as I can.
+               </p>
+               <p>
+                 And last but not the least I love music! I play the guitar since I was 16, sing a little and even trying to create my own songs and music.
+               </p>
+
+             </div>
+           </div>
+         </div>
+      </section>
+
+      <section class="contact-me page-section" id="contact-me">
+       <div class="wrapper">
+         <h1 class="text-center">Contact me</h1>
+       </div>
+       <div class="container">
+         <div class="row row-centered">
+           <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+             <div class="contact-info-ul">
+               <a href="tel:" class="list-group-item"><img class="phone" src="img/phone.png" alt="phone" /><span>+46712345678</span></a>
+               <a href="mailto:" class="list-group-item"><img class="email" src="img/mail.png" alt="mail" /><span>example@gmail.com</span></a>
+               <a href="http://facebook.com/olga.tarassova.31" class="list-group-item"><img class="facebook" src="img/facebook.png" alt="facebook" /><span>facebook.com/olga.tarassova.31</span></a>
+             </div>
+           </div>
+         </div>
+       </div>
+      </section>
+
+      </main>
+      <footer class="navbar-fixed-bottom">
+        <p class="footer-paragraph">&copy; 2015 Olga Tarassova</p>
       </footer>
       <!-- <script src="https://code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script> -->
       <!-- <script src="main.js" charset="utf-8"></script> -->
-    </div>
+
   </body>
 </html>
