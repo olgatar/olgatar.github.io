@@ -212,10 +212,11 @@ PAGE: PORTFOLIO
 .project img {
   width: 100%;
   border-radius: 10px;
+  margin: 10px 0;
 }
 
 .explanation-text {
-  padding: 5px 10px 0 10px;
+  padding: 10px 10px 0 10px;
 }
 
 .reflection-button button {
