@@ -48,7 +48,7 @@ GENERAL
 .container-fluid {
   margin: 0;
   padding: 0;
-  padding-top: 100px;
+  padding-top: 101px;
   padding-bottom: 40px;
 }
 
@@ -156,7 +156,7 @@ font-weight:bold;
 
 .landing-wrapper {
     width: 100%;
-    height: 350px;
+    height: 450px;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.6), 0px 0px 2px  rgba(0,0,0,1);
 }
 
@@ -296,7 +296,7 @@ PAGE: ABOUT
 .profile-photo {
   width: 100%;
   border-radius: 20px;
-  padding-top: 15px;
+  margin-top: 24px;
 }
 
 .about-me-div-content p {
@@ -387,6 +387,14 @@ MEDIA QUERIES
   }
 
   #myNavbar a {
+    font-size: 2em;
+  }
+
+  .landingpage h1 {
+    font-size: 4em;
+  }
+
+  .landingpage h2 {
     font-size: 2em;
   }
 
