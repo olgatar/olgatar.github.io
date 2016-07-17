@@ -104,13 +104,14 @@ HEADER
 }
 
 .menu-icon {
-    height: 30px;
+    height: 60px;
 }
 
 #myNavbar {
   font-family:"nerissemibold";
   background: #fff;
   border: none;
+  margin-top: 15px;
 }
 
 #myNavbar {
@@ -264,7 +265,7 @@ PAGE: PORTFOLIO
   margin-top: 0;
   color: #333;
   font-family: 'nerisbold', sans-serif;
-  font-size: 1.8em;
+  font-size: 2.2em;
   width: 80%;
 }
 .popup .close {
@@ -273,6 +274,7 @@ PAGE: PORTFOLIO
   right: 30px;
   transition: all 200ms;
   font-weight: bold;
+  font-size: 2.2em;
   text-decoration: none;
   color: #333;
 }
@@ -294,6 +296,7 @@ PAGE: ABOUT
 .profile-photo {
   width: 100%;
   border-radius: 20px;
+  padding-top: 15px;
 }
 
 .about-me-div-content p {
