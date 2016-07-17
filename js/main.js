@@ -18,7 +18,7 @@ $(document).ready(function() {
 });
 // scroll function
 function scrollToID(id, speed){
-	var offSet = 95;
+	var offSet = 100;
 	var targetOffset = $(id).offset().top - offSet;
 	var mainNav = $('#myNavbar');
 	$('html,body').animate({scrollTop:targetOffset}, speed);
