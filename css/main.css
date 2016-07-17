@@ -302,7 +302,7 @@ PAGE: ABOUT
 
 .about-me-div-content p {
   font-family: 'nerislight', sans-serif;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .about-me-div-content h4 {
@@ -316,7 +316,7 @@ PAGE: CONTACT
 
 .contact-info-ul {
   list-style: none;
-  font-size: 16px;
+  font-size: 30px;
   padding: 0;
   margin: 30px auto;
 }
@@ -397,7 +397,7 @@ MEDIA QUERIES
   }
 
   .contact-info-ul {
-    font-size: 12px;
+    font-size: 24px;
     text-align: center;
   }
 
