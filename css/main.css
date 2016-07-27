@@ -90,6 +90,7 @@ HEADER
     padding: 0;
     border-bottom: 1px solid black !important;
     background-color: white;
+    opacity: 0.9;
 }
 
 .navbar-header {
