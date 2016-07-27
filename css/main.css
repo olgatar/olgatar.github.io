@@ -45,11 +45,22 @@ FONTS
 /**********************************
 GENERAL
 ***********************************/
+
+body, html {
+   overflow-x: hidden;
+   width: 100%;
+}
+
 .container-fluid {
   margin: 0;
   padding: 0;
   padding-top: 101px;
   padding-bottom: 70px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 p {
