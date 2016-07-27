@@ -98,8 +98,8 @@ HEADER
 
 .olga-logo {
     background-color: white;
-    height: 80px;
-    margin-top: 12.5px;
+    height: 70px;
+    margin-top: 15px;
     margin-left: 15px;
     z-index:50;
 }
@@ -127,7 +127,7 @@ HEADER
   font-family:"nerissemibold";
   background: #fff;
   border: none;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 #myNavbar a {
@@ -446,7 +446,7 @@ MEDIA QUERIES
   }
 }
 
-@media (min-width: 767px){
+@media screen and (min-width: 767px){
    .collapse {
        display: none !important;
    }
