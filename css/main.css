@@ -220,7 +220,7 @@ PAGE: PORTFOLIO
   font-family: 'Lato', sans-serif;
   text-decoration: none;
   background: #000;
-  font-size: 1.6em;
+  font-size: 1.8em;
   border: 3px solid #000;
   border-radius: 5px;
 }
@@ -415,4 +415,10 @@ MEDIA QUERIES
   .email {
     width: 35px;
   }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+   .collapse {
+       display: none !important;
+   }
 }
