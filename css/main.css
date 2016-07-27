@@ -387,6 +387,25 @@ MEDIA QUERIES
 
 @media screen and (max-width: 767px) {
 
+  .olga-logo {
+      height: 50px;
+  }
+  .menu-icon {
+      height: 40px;
+  }
+
+  .container-fluid {
+    padding-top: 81px;
+  }
+
+  .page-header {
+      height: 80px;
+  }
+
+  .navbar-header {
+      height: 80px;
+  }
+
   #myNavbar {
     padding-top: 0;
   }
@@ -428,7 +447,7 @@ MEDIA QUERIES
   }
 }
 
-@media (min-width: 768px) and (max-width: 1000px) {
+@media (min-width: 767px) and (max-width: 1000px) {
    .collapse {
        display: none !important;
    }
