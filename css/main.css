@@ -54,7 +54,7 @@ body, html {
 .container-fluid {
   margin: 0;
   padding: 0;
-  padding-top: 101px;
+  padding-top: 100px;
   padding-bottom: 70px;
 }
 
@@ -88,8 +88,7 @@ HEADER
     height: 100px;
     margin: 0;
     padding: 0;
-    border: none;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid black !important;
     background-color: white;
 }
 
@@ -395,7 +394,7 @@ MEDIA QUERIES
   }
 
   .container-fluid {
-    padding-top: 81px;
+    padding-top: 80px;
   }
 
   .page-header {
@@ -447,8 +446,16 @@ MEDIA QUERIES
   }
 }
 
-@media (min-width: 767px) and (max-width: 1000px) {
+@media (min-width: 767px){
    .collapse {
        display: none !important;
+   }
+
+   #myNavbar {
+      border-bottom: 1px solid black !important;
+   }
+
+   .navbar-header {
+       border-bottom: 1px solid black !important;
    }
 }
