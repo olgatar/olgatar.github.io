@@ -204,11 +204,19 @@ PAGE: PORTFOLIO
   font-size: 4em;
 }
 
+.project-heading {
+  background-color: #000;
+  border-bottom: 1px solid #fff;
+  opacity: 0.8;
+}
+
 .portfolio h4 {
   font-weight: bold;
   font-family: 'nerislight', sans-serif;
-  color: #000;
+  color: #fff;
   font-size: 24px;
+  margin: 0;
+  padding: 5px 0;
 }
 
 .project {
@@ -217,8 +225,8 @@ PAGE: PORTFOLIO
 
 .project img {
   width: 100%;
-  border-radius: 10px;
-  margin: 10px 0;
+  /* border-radius: 10px; */
+  margin: 0 0 5px;
 }
 
 .explanation-text {
@@ -233,7 +241,7 @@ PAGE: PORTFOLIO
   background: #000;
   font-size: 1.8em;
   border: 3px solid #000;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .reflection-button button:hover {
@@ -305,8 +313,12 @@ PAGE: ABOUT
 
 .profile-photo {
   width: 100%;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   margin-top: 24px;
+}
+
+.about-me-div-content {
+  text-align: center;
 }
 
 .about-me-div-content p {
@@ -329,20 +341,22 @@ PAGE: CONTACT
   font-size: 24px;
   padding: 0;
   margin: 30px auto;
+  text-align: center;
 }
 
 .contact-info-ul a {
   text-decoration: none;
   font-family: 'nerislight', sans-serif;
   color: #000;
-  margin: 15px 0;
-  padding: 5px 5px;
+  margin: 15px 15px;
+  padding: 10px 10px;
   border: none;
   border-radius: 5px;
+  display: inline-block;
 }
 
 .contact-info-ul span {
-  padding-left: 10px;
+  display: block;
 }
 
 .contact-info-ul a:hover {
@@ -351,7 +365,7 @@ PAGE: CONTACT
 }
 
 .facebook {
-  width: 50px;
+  width: 40px;
 }
 
 .phone,
@@ -378,7 +392,7 @@ footer  {
   margin: 0 auto;
   color: white;
   font-family: "lato";
-  padding: 10px 0 10px;
+  padding: 20px 0 0;
   font-size: 18px;
 }
 
