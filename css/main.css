@@ -307,14 +307,13 @@ PAGE: PORTFOLIO
 /**********************************
 PAGE: ABOUT
 ***********************************/
+
 .about-me-div {
   padding: 30px 0;
 }
 
 .profile-photo {
   width: 100%;
-  /* border-radius: 20px; */
-  margin-top: 24px;
 }
 
 .about-me-div-content {
@@ -322,7 +321,6 @@ PAGE: ABOUT
   background-position: center;
   background-size: cover;
   text-align: center;
-  padding: 30px;
 }
 
 .about-me-div-content p {
