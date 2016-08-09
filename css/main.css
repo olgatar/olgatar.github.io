@@ -192,7 +192,9 @@ font-weight:bold;
 /**********************************
 PAGE: PORTFOLIO
 ***********************************/
-
+#portfolio .container-fluid {
+ padding-top: 0 !important;
+}
 .wrapper h1 {
   margin: 0;
 	padding: 5px 0;
