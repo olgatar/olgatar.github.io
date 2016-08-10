@@ -225,7 +225,7 @@ PAGE: PORTFOLIO
 
 .project img {
   width: 100%;
-  /* border-radius: 10px; */
+  border-radius: 3px;
   margin: 0 0 5px;
 }
 
