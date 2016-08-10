@@ -316,17 +316,10 @@ PAGE: ABOUT
   width: 100%;
 }
 
-.about-me-div-content {
-  background-image: url('../img/black-and-white-guitar.jpg');
-  background-position: 100% 100%;
-  background-size: cover;
-  text-align: center;
-}
-
 .about-me-div-content p {
   font-family: 'nerislight', sans-serif;
   font-size: 24px;
-  color: #fff;
+  color: #000;
   padding: 0;
 }
 
