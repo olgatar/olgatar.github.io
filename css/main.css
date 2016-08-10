@@ -342,12 +342,13 @@ PAGE: CONTACT
   text-align: center;
 }
 
-.contact-info-ul a {
+.contact-info-ul a.list-group-item {
   text-decoration: none;
   font-family: 'nerislight', sans-serif;
   color: #000;
   margin: 15px 15px;
-  width: 200px;
+  padding: 15px;
+  width: 300px !important;
   border: none;
   border-radius: 5px;
   display: inline-block;
