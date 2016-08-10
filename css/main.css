@@ -318,7 +318,7 @@ PAGE: ABOUT
 
 .about-me-div-content {
   background-image: url('../img/black-and-white-guitar.jpg');
-  background-position: center;
+  background-position: 100% 100%;
   background-size: cover;
   text-align: center;
 }
