@@ -347,7 +347,7 @@ PAGE: CONTACT
   font-family: 'nerislight', sans-serif;
   color: #000;
   margin: 15px 15px;
-  padding: 10px 10px;
+  width: 200px;
   border: none;
   border-radius: 5px;
   display: inline-block;
